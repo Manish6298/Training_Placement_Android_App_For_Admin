@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash"
+    tools:context=".SplashActivity">
+
+    <Button
+        android:id="@+id/splash"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/buttonstyle"
+        android:focusable="true"
+        android:text="Get Start"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        app:srcCompat="@drawable/logo"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/circle1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignBottom="@id/logo"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="80dp"
+        app:srcCompat="@drawable/ellipse2"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/circle2"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_alignTop="@id/circle1"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        app:srcCompat="@drawable/ellipse2"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/circle3"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@id/circle2"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        app:srcCompat="@drawable/ellipse2"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/tplogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/pacifico"
+        android:text="Tp"
+        android:textColor="@android:color/background_dark"
+        android:textSize="100sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:padding="20sp"
+        android:text="Welcome"
+        android:textColor="@color/colorWhite"
+        android:textSize="40dp"
+        tools:ignore="HardcodedText,SpUsage" />
+
+
+    <TextView
+        android:id="@+id/to"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/welcome"
+        android:layout_centerHorizontal="true"
+        android:text="To,"
+        android:paddingTop="20dp"
+        android:textColor="@color/colorTransparentWhite"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/tp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/to"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Training &amp; Placement"
+        android:textColor="@color/colorTransparentWhite"
+        android:textSize="20dp"
+        tools:ignore="HardcodedText,SpUsage" />
+
+</RelativeLayout>

@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "1068314211849",
+    "firebase_url": "https://myapp-d2932.firebaseio.com",
+    "project_id": "myapp-d2932",
+    "storage_bucket": "myapp-d2932.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1068314211849:android:8d18f0a9fd650ba953ead8",
+        "android_client_info": {
+          "package_name": "com.mind.loginregisterapps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1068314211849-2mrp4k5r47fpe2cbf2s8esruc2fjalgi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mind.loginregisterapps",
+            "certificate_hash": "d07b7a422852e4db66aa73efa4e28a349a999c02"
+          }
+        },
+        {
+          "client_id": "1068314211849-158tp3juan4iq6kllibvbbg44pj6lsil.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mind.loginregisterapps",
+            "certificate_hash": "6f5ceb06294b6bf022e52f7606d399f8c5f24996"
+          }
+        },
+        {
+          "client_id": "1068314211849-4jl2gteviqt8gc8gueb2lfafd1vlrqpr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBCMjTzhRQcMrMQ90rEXRjxRjWYZpGRoA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1068314211849-4jl2gteviqt8gc8gueb2lfafd1vlrqpr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

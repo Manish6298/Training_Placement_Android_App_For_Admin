@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mind.loginregisterapps">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".About_App"
+            android:parentActivityName=".Dashboard"></activity>
+        <activity
+            android:name=".RatingApp"
+            android:parentActivityName=".Dashboard" />
+        <activity android:name=".NotesDetailActivity"
+            android:parentActivityName=".Notes"/>
+        <activity
+            android:name=".TermsCondition"
+            android:parentActivityName=".Dashboard" />
+        <activity android:name=".UpdateMyAccount" />
+        <activity android:name=".IntroActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.FullScreen" />
+        <activity android:name=".UploadNotes"
+            android:parentActivityName=".Notes"/>
+        <activity
+            android:name=".Notes"
+            android:parentActivityName=".Dashboard" />
+        <activity
+            android:name=".About_Us"
+            android:parentActivityName=".Dashboard" />
+        <activity android:name=".ResetPassword" />
+        <activity android:name=".DetailUpdateActivity"
+            android:parentActivityName=".SendUpdate"/>
+        <activity android:name=".UploadUpdate" />
+        <activity
+            android:name=".SendUpdate"
+            android:parentActivityName=".Dashboard" />
+        <activity android:name=".DetailActivity"
+            android:parentActivityName=".StudentRecord"/>
+        <activity
+            android:name=".StudentRecord"
+            android:parentActivityName=".Dashboard" />
+        <activity
+            android:name=".MyAccount"
+            android:parentActivityName=".Dashboard" />
+        <activity
+            android:name=".Dashboard"
+            android:theme="@style/AppTheme.FullScreen" />
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/AppTheme.FullScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:theme="@style/AppTheme.FullScreen" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
